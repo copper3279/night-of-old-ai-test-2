@@ -1,0 +1,42 @@
+{
+    "name": "night of old ai test #2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.2.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "ragdoll extension": "github:bladebaillio/ragdoll-extension#29286a894d3591552922634b3b50ca3dfdcc897d",
+        "soft body extension:": "github:bladebaillio/soft-body-extension#v0.4.0",
+        "pxt-lanterns": "github:WoofWoofCodes/lanterns#v1.2.0",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#v0.1.2",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "arcade-sprite-events": "github:riknoll/arcade-sprite-events#dc93eec8412053ebbd2b8f01cf5b6ae285d28900",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.6.0",
+        "grafxkid-tiles": "github:riknoll/grafxkid-tiles#v2.0.1",
+        "level extension": "github:neverstopthecoder/level-extension#6e6b93bdc4211f4d6e6cb5f80c468f0428917e4b",
+        "multiplayer": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "pxt-sight": "github:felixtsu/pxt-sight#v0.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
